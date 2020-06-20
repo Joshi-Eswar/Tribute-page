@@ -1,0 +1,160 @@
+body{
+    align-content: center;
+    margin:0;
+}
+#title-div{
+   
+   background:linear-gradient(90deg,#963CBDFF,#FF6F61FF,#C5299BFF,#FEAE51FF,#00B1D2FF) ;
+   
+    align-content: center;
+    border-radius: 20px;
+    padding-bottom: 1%;
+    
+}
+#title{
+    font-family: 'Lobster', cursive;
+    font-size:5rem;
+    font-weight: 900;
+    height:2rem;
+    text-align: center;
+    /*color:#006B38FF;*/
+    color:#101820ff;
+    margin:0;
+    
+
+}
+#title-Description{
+    font-family: 'Italianno', cursive;
+    font-size:3rem;
+    font-weight: 900;
+    height:2rem;
+    text-align: center;
+    color:#101820FF;
+    margin:7% 5%;
+
+
+}
+#img-div{ 
+    background:linear-gradient(90deg,#28334AFF,#339E66FF) ;
+   
+    align-content: center;
+    border-radius: 20px;
+    padding: 5% 5%;}
+#img-caption{
+    font-family: 'Italianno', cursive;
+    font-size:3rem;
+    font-weight: 900;
+    height:2rem;
+    text-align: center;
+    color:#101820FF;
+}
+#image{
+    max-width:400px;
+    max-height:400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+   /* position: relative;
+    left:32%;
+    
+    margin:20px 20px;
+    margin-top: 40px;*/
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tribute-info{
+    background: linear-gradient(90deg,#FC766AFF,#EDC2D8FF,#8ABAD3FF);
+    
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5% 5%;
+    
+}
+
+#tribute-info-heading{
+    font-family: 'Italianno', cursive;
+    font-size:3rem;
+    font-weight: 900;
+    height:2rem;
+    text-align: center;
+    color:#101820FF;
+
+}
+.para{
+    font-family: 'Merriweather', serif;
+    font-size:1.5rem;
+    font-weight: 900;
+    margin-left:20% ;
+    margin-right:20%;
+    
+
+    text-align: center;
+    color:#101820FF;
+
+}
+#tribute2{
+    background: linear-gradient(90deg,#E3C9CEFF,#9FC131Ff);
+    margin:none;
+    padding:2% 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+#tribute-link1{ font-family: 'Italianno', cursive;
+    font-size:2rem;
+    font-weight: 900;
+   
+    text-align: center;
+    color:#101820FF;
+    margin-left:20% ;
+    margin-right:20%;
+}
+#tribute-link{
+    text-decoration:none;
+    color: blueviolet;
+}
+@media (max-width:720px){
+    #title{
+        font-family: 'Lobster', cursive;
+        font-size:2rem;
+        font-weight: 900;
+        margin:0;
+        text-align: center;
+        /*color:#006B38FF;*/
+        color:#101820ff;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    
+    }
+    #title-Description{
+        font-family: 'Italianno', cursive;
+        font-size:1.5rem;
+        font-weight: 900;
+       
+        text-align: center;
+        color:#101820FF;
+        margin:7% 5%;
+    }
+
+}
+div{
+    background: #616247FF;
+    margin:0;
+    border-radius: 20px;
+}
+p{ font-family: 'Merriweather', serif;
+    font-size:2rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color:white;
+    margin-left:20% ;
+    margin-right:20%;
+}
+.para1{
+    color:#DAA03DFF;
+}
